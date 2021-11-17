@@ -1,0 +1,45 @@
+body {
+  min-height: 1000px;
+
+  background-color: rgb(160, 160, 160);
+}
+
+.navbar {
+  background-color: lightgray;
+}
+
+#About {
+  background-color: rgb(160, 160, 160);
+  margin: 0 auto;
+  width: 900px;
+  padding: 10rem;
+}
+
+.container .AboutMe {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.container .Profil .container p {
+  width: 1000px;
+  height: 200px;
+  text-align: center;
+  font-size: 16;
+}
+
+#About .container {
+  display: inline;
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 100px;
+  padding: 15px;
+}

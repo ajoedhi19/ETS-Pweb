@@ -1,0 +1,89 @@
+body {
+  min-height: 1200px;
+}
+
+.navbar {
+  background-color: lightgray;
+}
+
+.jumbotron {
+  padding: 6rem;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("asset/background.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+.jumbotron .img {
+  vertical-align: middle;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.jumbotron .img:hover {
+  opacity: 0.5;
+}
+
+.jumbroton p {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 20;
+}
+
+#wrap {
+  width: 100%;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
+  text-align: center;
+}
+table {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+  border-collapse: collapse;
+
+  text-align: center;
+  margin: auto;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+.section-quotes {
+  padding: 4.8rem 2.4rem;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+  height: 50vh;
+}
+.qoute-text {
+  justify-self: center;
+  font-size: 1.2rem;
+  text-align: center;
+  text-justify: inter-word;
+}
+.qoute-author {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+footer {
+  height: 50px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 100px;
+  padding: 15px;
+}

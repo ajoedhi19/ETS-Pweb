@@ -1,0 +1,49 @@
+body {
+  min-height: 2000px;
+
+  background-color: rgb(160, 160, 160);
+}
+
+.navbar {
+  background-color: lightgray;
+}
+
+#portofolio {
+  padding: 8rem;
+}
+
+#portofolio h2 {
+  text-align: center;
+}
+
+#Projek {
+  margin: auto;
+  padding: 150px;
+}
+
+#Projek h2 {
+  text-align: center;
+}
+#Projek p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14;
+}
+
+#Projek .card {
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  font-weight: bold;
+}
+
+footer {
+  height: 50px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 100px;
+  padding: 15px;
+}
